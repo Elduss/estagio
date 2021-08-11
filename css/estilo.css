@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+}
+
+.form {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 50%;
+}
+.navbar{
+  background-color: #343A40;
+}
+
+.login{
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  border: outset;
+  margin: 5%;
+  width: 90%;
+  border: 3px solid;
+	border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+@media (max-width: 800px){
+	.login{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  .form{
+    width: 100%;
+  }
+}
+.login-img{
+  width: 50%;
+  border-bottom-right-radius: 15px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.rodape{
+	background-color: #343A40;
+	color: #fff;
+	margin-bottom: 0rem;
+	padding: 3%;
+}
+
+ul li a{
+	color: rgb(247, 240, 240) !important;
+}
+ul li div a{
+	color: rgb(20, 19, 19) !important;
+}
+ul li a:hover{
+	color: rgb(14, 13, 13) !important;
+}
+button a{
+  color: #fff !important;
+}
+.menu{
+  width: 95%;
+  margin: 1%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.menu-icon{
+  border: outset 1px;
+  padding: 1%;
+  margin: 1%;
+}
+.rounded-circle{
+  width: 140px;
+  height: 140px;
+}
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.icon{
+  margin-right: 15px;
+}
